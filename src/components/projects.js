@@ -7,106 +7,20 @@ export default class Projects extends Component {
                 <section className="colorlib-work" data-section="projects">
                     <div className="colorlib-narrow-content">
                         <div className="row">
-                            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span className="heading-meta">My Work</span>
-                                <h2 className="colorlib-heading animate-box">Recent Projects</h2>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                <div className="project" style={{ backgroundImage: 'url(images/img-1.jpg)' }}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="work.html">Work 01</a></h3>
-                                            <span>Website</span>
-                                            <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
-                                            </p>
+                            <div className="col-md-12">
+                                <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div className="col-md-12">
+                                        <span className="heading-meta">Projects</span>
+                                        <div className="about-desc">
+                                            <h2 className="colorlib-heading">Rules (athenaCollector)</h2>
+                                            <p>Rules helps to create and submit the error free claim to payer without any rejections and reduce the total turnaround time of claim billing process. We have a multiple instant need to write context specific and global rules.</p>
+                                            <h2 className="colorlib-heading">Coding Services (athenaCollector)</h2>
+                                            <p>Coding service improves the medical billing process and keeping claims error-free with the help of expert medical billing teams that reduce work and hassle for optimal financial results. This service teams and network intelligence help minimize the administrative and medical billing work. So that we get paid faster, with far less work.</p>
+                                            <h2 className="colorlib-heading">Practice Structure & Posting (athenaCollector)</h2>
+                                            <p>Practice Structure improves the flexibility of provider/clients. This service team will help to create / modifying the structure /code based on practice level. We need not to force any clients to change their existing things and they can easily adopt the new software. Remittance and Posting teamwork with payer to get their money and posted in providers buckets. We have lots more important areas such as get the remit files from payer, working with data entry and posted the claims and deposit the money to provider account etc.</p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                                <div className="project" style={{ backgroundImage: 'url(images/img-2.jpg)' }}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="work.html">Work 02</a></h3>
-                                            <span>Animation</span>
-                                            <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-                                <div className="project" style={{ backgroundImage: 'url(images/img-3.jpg)' }}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="work.html">Work 03</a></h3>
-                                            <span>Illustration</span>
-                                            <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-                                <div className="project" style={{ backgroundImage: 'url(images/img-4.jpg)' }}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="work.html">Work 04</a></h3>
-                                            <span>Application</span>
-                                            <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                <div className="project" style={{ backgroundImage: 'url(images/img-5.jpg)' }}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="work.html">Work 05</a></h3>
-                                            <span>Graphic, Logo</span>
-                                            <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                                <div className="project" style={{ backgroundImage: 'url(images/img-6.jpg)' }}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="work.html">Work 06</a></h3>
-                                            <span>Web Design</span>
-                                            <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-12 animate-box">
-                                <p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
                             </div>
                         </div>
                     </div>
