@@ -7,78 +7,31 @@ export default class Accomplishment extends Component {
                 <section className="colorlib-blog" data-section="accomplishment">
                     <div className="colorlib-narrow-content">
                         <div className="row">
-                            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span className="heading-meta">Accomplishment</span>
-                                <h2 className="colorlib-heading">Recent Awards and Certificates</h2>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                                <div className="blog-entry">
-                                    <a href="blog.html" className="blog-img"><img src="images/blog-1.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
-                                    <div className="desc">
-                                        <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i className="icon-bubble3" /> 4</small></span>
-                                        <h3><a href="blog.html">Renovating National Gallery</a></h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            <div className="col-md-12">
+                                <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div className="col-md-12">
+                                        <div className="about-desc">
+                                            <span className="heading-meta">Accomplishment</span>
+                                            <h2 className="colorlib-heading">Certificates</h2>
+                                            <ul>
+                                                <li>Certified as Newgen Certified Program in Level I and II</li>
+                                                <li>Certified as Cognizant Certified Student Program in 2012</li>
+                                                <li>Certified as Oracle 11g Administrator from Oracle</li>
+                                                <li>Certified as Honourable Diploma in Computer Application from CSC</li>
+                                            </ul>
+                                            <br></br>
+                                            <h2 className="colorlib-heading">Acheivements</h2>
+                                            <ul>
+                                                <li>Receive Excellence Award from Athena Top Management for Rules Project</li>
+                                                <li>Participated in Hackathon conducted in Athena health Chennai</li>
+                                                <li>Receive Excellence & Paton Back Award from Newgen Top Management for JNJ Project</li>
+                                                <li>Got Golden Batch for Python and 10 Days of JS in HackerRank</li>
+                                                <li>Got Silver Batch for SQL in HackerRank</li>
+                                                <li>Won first prize in Programming contest in Bannari Amman Institute of Technology</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-                                <div className="blog-entry">
-                                    <a href="blog.html" className="blog-img"><img src="images/blog-2.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
-                                    <div className="desc">
-                                        <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i className="icon-bubble3" /> 4</small></span>
-                                        <h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                                <div className="blog-entry">
-                                    <a href="blog.html" className="blog-img"><img src="images/blog-3.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
-                                    <div className="desc">
-                                        <span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i className="icon-bubble3" /> 4</small></span>
-                                        <h3><a href="blog.html">Make website from scratch</a></h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                                <div className="blog-entry">
-                                    <a href="blog.html" className="blog-img"><img src="images/blog-1.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
-                                    <div className="desc">
-                                        <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i className="icon-bubble3" /> 4</small></span>
-                                        <h3><a href="blog.html">Renovating National Gallery</a></h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-                                <div className="blog-entry">
-                                    <a href="blog.html" className="blog-img"><img src="images/blog-2.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
-                                    <div className="desc">
-                                        <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i className="icon-bubble3" /> 4</small></span>
-                                        <h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                                <div className="blog-entry">
-                                    <a href="blog.html" className="blog-img"><img src="images/blog-3.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
-                                    <div className="desc">
-                                        <span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i className="icon-bubble3" /> 4</small></span>
-                                        <h3><a href="blog.html">Make website from scratch</a></h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-12 animate-box">
-                                <p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
                             </div>
                         </div>
                     </div>

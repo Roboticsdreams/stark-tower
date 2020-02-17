@@ -13,7 +13,7 @@ export default class About extends Component {
                                         <div className="about-desc">
                                             <span className="heading-meta">About Us</span>
                                             <h2 className="colorlib-heading">Who Am I?</h2>
-                                            <p>“A Techy guy who is fashinate of solving real time complex problem via digitial world with computer vision. Active participant of geeks of geeks and HackerRank.</p><p>I first became interested in sustainability because I wanted to work with a company whose mission is to promote a new textile economy — one that will protect the future of our planet. When I learned that the fashion industry will consume a quarter of the world’s annual carbon budget by 2050, I decided to organize a campus fundraising event to help fight textile waste.</p><p>We raised more than $10,000 and donated an entire truck of unwanted clothing to a local homeless shelter. It was one of my proudest accomplishments. At my last job, I helped develop a new technology that turns cotton waste into new materials that can be used for many industrial purposes.</p><p>I’m very excited about this opportunity at your company because it would allow me to use my knowledge and experience to educate people about how their actions — like their shopping habits and what brands they support — can make a serious impact on our environment.” </p>
+                                            <p>“A techie guy who is fashinate of solving real time complex problem via digitial world with computer vision. Active participant of geeks of geeks and HackerRank.</p><p>I first became interested in sustainability because I wanted to work with a company whose mission is to promote a new textile economy — one that will protect the future of our planet. When I learned that the fashion industry will consume a quarter of the world’s annual carbon budget by 2050, I decided to organize a campus fundraising event to help fight textile waste.</p><p>We raised more than $10,000 and donated an entire truck of unwanted clothing to a local homeless shelter. It was one of my proudest accomplishments. At my last job, I helped develop a new technology that turns cotton waste into new materials that can be used for many industrial purposes.</p><p>I’m very excited about this opportunity at your company because it would allow me to use my knowledge and experience to educate people about how their actions — like their shopping habits and what brands they support — can make a serious impact on our environment.” </p>
                                         </div>
                                     </div>
                                 </div>
@@ -37,7 +37,7 @@ export default class About extends Component {
                                     </span>
                                     <div className="desc">
                                         <h3>Problem Solving</h3>
-                                        <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
+                                        <p>I have a habit of updating my problem solving skills by practicing via in HackerRank, GeeksforGeeks and Daily Coding Problems</p>
                                     </div>
                                 </div>
                             </div>
@@ -59,11 +59,10 @@ export default class About extends Component {
                                     </span>
                                     <div className="desc">
                                         <h3>Database/NoSQL</h3>
-                                        <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                                        <p>Good knowledge in design and Populate specific tables, databases for collection, tracking and reporting of data</p>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </section>
