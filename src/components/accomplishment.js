@@ -22,7 +22,7 @@ export default class Accomplishment extends Component {
                                             <br></br>
                                             <h2 className="colorlib-heading">Acheivements</h2>
                                             <ul>
-                                                <li>Receive Excellence Award from Athena Top Management for Rules Project</li>
+                                                <li>Received Excellence Award from Athena Top Management for Rules Project</li>
                                                 <li>Participated in Hackathon conducted in Athena health Chennai</li>
                                                 <li>Receive Excellence & Paton Back Award from Newgen Top Management for JNJ Project</li>
                                                 <li>Got Golden Batch for Python and 10 Days of JS in HackerRank</li>
