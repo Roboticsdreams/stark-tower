@@ -1,7 +1,0 @@
-install heroku CLI
-
-heroku login
-
-heroku pg:psql
-
-bash: migrate:latest: command not found
