@@ -12,7 +12,7 @@ export default class Projects extends Component {
                                     <div className="col-md-12">
                                         <span className="heading-meta">Projects</span>
                                         <div className="about-desc">
-                                            <h4><b>Rules (athenaCollector)</b></h4>
+                                            <h4><b>Rules (athenaCollector - RCM)</b></h4>
                                             <p>Rules help to create, format and submit error free claim to payer without any rejections. They also reduce the total turnaround time of claim billing process. Some rules are context specific where as others are global rules(which apply to all contexts).</p>
                                             <h4><b>Coding Services (athenaCollector)</b></h4>
                                             <p>Coding services improve the medical billing process and keep claims error-free with the help of expert medical billing teams that reduce work and hassle for optimal financial results. This service team and network intelligence help minimize the administrative and medical billing work. So that we get paid faster, with far less work.</p>
