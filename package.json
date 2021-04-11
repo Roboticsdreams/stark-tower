@@ -1,8 +1,7 @@
 {
-  "name": "stark-tower",
+  "name": "starktower",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
-	"postinstall": "npm install --prefix starktower"
-  },
+    "postinstall": "npm install --prefix starktower"
+  }
 }
